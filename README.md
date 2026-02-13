@@ -1,15 +1,4 @@
 <!-- ===================================================== -->
-<!-- 🖼 WEBSITE SCREENSHOT -->
-<!-- Replace the image link below with your real screenshot -->
-<!-- ===================================================== -->
-
-<p align="center">
-  <img src="https://via.placeholder.com/1200x600.png?text=GitHub+Profile+README+Maker+Screenshot" width="100%" />
-</p>
-
----
-
-<!-- ===================================================== -->
 <!-- 🌈 ANIMATED GRADIENT HERO -->
 <!-- ===================================================== -->
 
@@ -17,11 +6,19 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:8b5cf6,100:ec4899&height=220&section=header&text=GitHub%20Profile%20README%20Maker&fontSize=38&fontColor=ffffff&animation=fadeIn"/>
 </p>
 
+<!-- ===================================================== -->
+<!-- 🖼 WEBSITE SCREENSHOT -->
+<!-- Replace the image link below with your real screenshot -->
+<!-- ===================================================== -->
+
+<p align="center">
+  <img src=".idx/screenshot.png" width="100%" />
+</p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&size=24&pause=1000&color=0EA5E9&center=true&vCenter=true&width=800&lines=Developer+Branding+Engine;Live+Preview+Markdown+Generator;Production+Ready+Web+Application;Built+For+Modern+Developers"/>
 </p>
 
----
 
 <!-- ===================================================== -->
 <!-- 🚀 STARTUP PITCH VERSION -->
