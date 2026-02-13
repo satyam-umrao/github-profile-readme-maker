@@ -670,10 +670,10 @@ export default function ReadMate() {
             
             <div className="flex flex-wrap items-center justify-center gap-4 pb-8">
               {[
-                { label: 'GitHub', icon: <Github className="w-4 h-4" />, href: 'https://github.com' },
+                { label: 'GitHub', icon: <Github className="w-4 h-4" />, href: 'https://github.com/satyam-umrao' },
                 { label: 'Discord', icon: <Discord className="w-4 h-4" />, href: 'https://discord.com' },
-                { label: 'LinkedIn', icon: <Linkedin className="w-4 h-4" />, href: 'https://linkedin.com' },
-                { label: 'Twitter', icon: <Twitter className="w-4 h-4" />, href: 'https://twitter.com' },
+                { label: 'LinkedIn', icon: <Linkedin className="w-4 h-4" />, href: 'https://www.linkedin.com/in/satyam-umrao' },
+                { label: 'Twitter', icon: <Twitter className="w-4 h-4" />, href: 'https://x.com/SatyamUmrao_' },
               ].map((link) => (
                 <a 
                   key={link.label}
