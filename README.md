@@ -131,16 +131,19 @@ Target Users: Students, Job Seekers, Open-Source Developers, Indie Builders
 <table width="100%" align="center">
 <tr>
 <td align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight" height="170"/>
-<br/><br/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" height="170"/>
-<br/><br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight" height="170"/>
-
+<img src="https://github-readme-stats.vercel.app/api?username=satyam-umrao&show_icons=true&theme=tokyonight&rank_icon=github" height="170"/>
+</td>
+<td align="center">
+<img src="https://streak-stats.demolab.com?user=satyam-umrao&theme=tokyonight" height="170"/>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyam-umrao&layout=compact&theme=tokyonight" height="170"/>
 </td>
 </tr>
 </table>
+
 
 ---
 
