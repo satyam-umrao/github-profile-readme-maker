@@ -62,31 +62,6 @@ Clean, professional, recruiter-ready output.
 ---
 
 <!-- ===================================================== -->
-<!-- 💎 SAAS POSITIONING -->
-<!-- ===================================================== -->
-
-## 💎 SaaS Vision
-
-<table width="100%" align="center">
-<tr>
-<td align="center">
-
-Future expansion opportunities:
-
-• AI-powered bio suggestions  
-• Resume & portfolio generator  
-• Developer analytics dashboard  
-• Premium themes & templates  
-
-Target Users: Students, Job Seekers, Open-Source Developers, Indie Builders  
-
-</td>
-</tr>
-</table>
-
----
-
-<!-- ===================================================== -->
 <!-- 🎨 CORE FEATURES -->
 <!-- ===================================================== -->
 
@@ -122,54 +97,6 @@ Target Users: Students, Job Seekers, Open-Source Developers, Indie Builders
 
 ---
 
-<!-- ===================================================== -->
-<!-- 📊 GITHUB ANALYTICS -->
-<!-- ===================================================== -->
-
-## 📊 GitHub Analytics
-
-<table width="100%" align="center">
-<tr>
-<td align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=satyam-umrao&show_icons=true&theme=tokyonight&rank_icon=github" height="170"/>
-</td>
-<td align="center">
-<img src="https://streak-stats.demolab.com?user=satyam-umrao&theme=tokyonight" height="170"/>
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=satyam-umrao&layout=compact&theme=tokyonight" height="170"/>
-</td>
-</tr>
-</table>
-
-
----
-
-<!-- ===================================================== -->
-<!-- 🎯 RECRUITER SECTION -->
-<!-- ===================================================== -->
-
-## 🎯 Recruiter Insight
-
-<table width="100%" align="center">
-<tr>
-<td align="center">
-
-This project demonstrates:
-
-• Frontend architecture expertise  
-• UI/UX design capability  
-• Clean code practices  
-• Production deployment knowledge  
-• Developer branding awareness  
-
-</td>
-</tr>
-</table>
-
----
 
 <!-- ===================================================== -->
 <!-- 🌈 FOOTER -->
