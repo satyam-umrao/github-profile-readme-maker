@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Vibrant Green & Brown Theme - Dark (Default) */
+    --background: 142 30% 4%;
+    --foreground: 0 0% 100%;
+    --card: 142 30% 6%;
+    --card-foreground: 0 0% 100%;
+    --popover: 142 30% 6%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 142 70% 45%; /* Forest Green */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 30% 20%; /* Deep Earth */
+    --secondary-foreground: 0 0% 100%;
+    --muted: 142 20% 12%;
+    --muted-foreground: 142 10% 70%;
+    --accent: 25 75% 50%; /* Vibrant Copper/Brown */
+    --accent-foreground: 0 0% 100%;
+    --border: 142 20% 15%;
+    --input: 142 20% 15%;
+    --ring: 142 70% 45%;
+    --radius: 1.5rem;
+
+    --chart-1: 142 70% 45%;
+    --chart-2: 25 75% 50%;
+    --chart-3: 142 40% 30%;
+    --chart-4: 45 90% 60%;
+    --chart-5: 10 80% 55%;
+
+    --footer-bg: 142 80% 8%;
+    --footer-text: 142 20% 95%;
+  }
+
+  .light {
+    /* Vibrant Green & Brown Theme - Light */
+    --background: 142 20% 98%;
+    --foreground: 142 50% 5%;
+    --card: 0 0% 100%;
+    --card-foreground: 142 50% 5%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 142 50% 5%;
+    --primary: 142 70% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 40% 90%;
+    --secondary-foreground: 25 60% 10%;
+    --muted: 142 10% 92%;
+    --muted-foreground: 142 10% 40%;
+    --accent: 25 70% 45%;
+    --accent-foreground: 0 0% 100%;
+    --border: 142 20% 88%;
+    --input: 142 20% 88%;
+    --ring: 142 70% 40%;
+
+    --footer-bg: 142 40% 90%;
+    --footer-text: 142 60% 10%;
+  }
+
+  /* Force dark theme variables for specific sections */
+  .force-dark {
+    --background: 142 30% 4%;
+    --foreground: 0 0% 100%;
+    --card: 142 30% 6%;
+    --card-foreground: 0 0% 100%;
+    --popover: 142 30% 6%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 142 70% 45%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 25 30% 20%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 142 20% 12%;
+    --muted-foreground: 142 10% 70%;
+    --accent: 25 75% 50%;
+    --accent-foreground: 0 0% 100%;
+    --border: 142 20% 15%;
+    --input: 142 20% 15%;
+    --ring: 142 70% 45%;
+    color: hsl(var(--foreground));
+    background-color: hsl(var(--background));
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased selection:bg-primary/30 transition-colors duration-500;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold tracking-tight;
+  }
+}
+
+.glass-card {
+  @apply bg-card/60 backdrop-blur-xl border border-border shadow-xl;
+}
+
+.vibrant-gradient {
+  background: radial-gradient(circle at top left, hsl(var(--primary) / 0.1), transparent 40%),
+              radial-gradient(circle at bottom right, hsl(var(--accent) / 0.05), transparent 40%),
+              hsl(var(--background));
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-primary/20 rounded-full hover:bg-primary/40 transition-colors;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+}
