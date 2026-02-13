@@ -1,10 +1,4 @@
-<!-- ===================================================== -->
-<!-- 🌈 ANIMATED GRADIENT HERO -->
-<!-- ===================================================== -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,50:8b5cf6,100:ec4899&height=220&section=header&text=GitHub%20Profile%20README%20Maker&fontSize=38&fontColor=ffffff&animation=fadeIn"/>
-</p>
 
 <!-- ===================================================== -->
 <!-- 🖼 WEBSITE SCREENSHOT -->
